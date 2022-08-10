@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Sabina Johnson">
+		<meta name= "description" content="home page for Pet's To Go.">
+		<meta name= "keywords" content="pets, aninmal shelter, dogs, cats, no-kill">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--
+			Final Project - PetsToGo
+			July 26, 2022
+		-->
+		<title>Pets To Go Home</title>
+		
+		<!--Bootstrap link-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		
+		<!--link to style and structure sheets-->
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="structure.css">
+		
+		<!--Link to paw print font-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<style>
+			
+			
+			
+		/* process the Responsive portion of the page using a CSS Media Query */
+			
+		@media only screen and (max-width:500px) {
+			.order-change {
+				flex-direction: column-reverse;
+			}
+		
+		}
+
+			
+		</style>
+	</head>
+	
+	<body>
+		
+	<!-- Header -->
+		<header>
+			<div class="container-flex">
+				<div class="row">
+          			<div class="col">
+			
+				<div id="demo" class="carousel slide" data-ride="carousel">
+
+				<!-- Indicators -->
+				  <ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+				  </ul>
+
+				<!-- The slideshow -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+						  <img class="desktopSize" src="images/dog_banner_web.jpg" alt="Dog Portrait" width="1100" height="500" title="white dog">
+							<img class="mobileSize" src="images/dog_banner_three_mobile.jpg" alt="Dog Portrait" width="1100" height="500" title="white dog">
+							<div class="container">
+							  <div class="carousel-caption text-left">
+								<h1 class="header-display">Adopt the perfect pet.</h1>
+								<p class="header-display">Search adoptable pets from our shelters.</p>
+								<p><a class="btn btn-lg btn-primary" href="gallery.html" role="button">Adopt</a></p>
+							  </div>
+							</div>
+						</div>
+						<div class="carousel-item">
+						  <img class="desktopSize" src="images/cat_banner_web.jpg" alt="Cat" width="1100" height="500" title="cat">
+						  <img class="mobileSize" src="images/cat_banner_two_mobile.jpg" alt="Cat" width="1100" height="500" title="cat">
+
+							<div class="container">
+							  <div class="carousel-caption text-left">
+								<h1 class="header-display">Volunteer with us.</h1>
+								<p class="header-display">Choose to change the world for homeless pets.</p>
+								<p><a class="btn btn-lg btn-primary" href="contact_us.html" role="button">Volunteer</a></p>
+							  </div>
+							</div>
+						</div>
+						<div class="carousel-item">
+						  <img  class="desktopSize" src="images/dog_banner_two_web.jpg" alt="Dog smiling" width="1100" height="500" title="golden retriever">
+							<img class="mobileSize" src="images/dob_banner_two_mobile.jpg" alt="Dog smiling" width="1100" height="500" title="golden retriever">
+							<div class="container">
+							  <div class="carousel-caption text-left">
+								<h1 class="header-display">Donate and Sponsor</h1>
+								<p class="header-display">Your donations save lives. It's really that simple.</p>
+								<p><a class="btn btn-lg btn-primary" href="contact_us.html" role="button">Donate</a></p>
+							  </div>
+							</div>
+						</div>
+						</div>
+
+						  <!-- Left and right controls -->
+						 <a class="carousel-control-prev" href="#demo" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						 </a>
+						 <a class="carousel-control-next" href="#demo" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						 </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header -->
+		
+		<!-- Nav -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <a class="navbar-brand" href="index.html"> <i class="fa fa-paw"></i> Pet's To Go</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+			  <a class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+			  <a class="nav-item nav-link" href="about.html">About</a>
+			  <a class="nav-item nav-link" href="our_pets.html">Our Pets</a>
+			  <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+			  <a class="nav-item nav-link" href="contact_us.html">Contact Us</a>
+			</div>
+		  </div>
+		</nav>
+		<!-- Nav -->
+
+		<main class="main">
+			
+			<div class="container">
+				<div class="row header icon-header">
+					<div col-lg-12>
+						<h1>Your Pet Adoption Journey</h1>
+					</div>
+				</div>
+
+        	<!-- Three columns of text below the carousel -->
+        		<div class="row">
+          			<div class="col-lg-4 icon-p link">
+            			<img class="fa-square" src="images/abstract-1751204_1280.png" alt="paw print heart" title="Paw print heart" width="140" height="140">
+            			<h2>Search</h2>
+            			<p>It's easy to find a dog or cat who's right for you. Simply browse through our <a href="gallery.html">gallery</a> of current pets.</p>
+          			</div><!-- /.col-lg-4 -->
+					
+          		<div class="col-lg-4 icon-p link">
+            		<img class="fa-square" src="images/paw-7344539_1280.png" alt="paw print inside of heart" title="paw print inside of heart" width="140" height="140">
+            		<h2>Meet</h2>
+            		<p>Once you find a pet, <a href="contact_us.html">contact us</a> to learn more about them. We will help set-up a time to meet and adopt the pet.</p>
+          		</div><!-- /.col-lg-4 -->
+					
+          		<div class="col-lg-4 icon-p">
+            		<img class="fa-square" src="images/paw-print-2167964_1920.png" alt="love paw print" title="love paw print" width="140" height="140">
+            		<h2>Adopt</h2>
+            		<p>We will walk you through the adoption process. Prepare your home for the arrival of your dog or cat.</p>
+          		</div><!-- close .col-lg-4 -->
+        	</div><!-- /.row -->
+			<hr class="featurette-divider">
+		</div>
+		
+		<!---Upcoming Events-->
+			
+		<div class="container">
+			<div class="row event">
+			  <div class="col-md-7 left-p format-event-left">
+				<h2 class="event-heading">Adopt-a-Rama Open House.</h2>
+				<h3 class="text">Saturday, March 5</h3>
+				<p class="lead">Join us for our annual Adopt-a-Rama Open House from 10:00 a.m. to 4:00 p.m. If you have room in your heart and home to adopt, give a pet in need the loving home they deserve. Meet your new bestie during our annual event.</p>
+				 <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+  				<path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+  				<path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				</svg> <a href="https://goo.gl/maps/B49EFibjhQAnng9e7" target="_blank"> Pets To Go Animal Shelter, 13183 S Veterans Pkwy, Springfield, Illinois 62704</a></p>
+			  </div>
+				
+			  <div class="col-md-5 event-img">
+				<img class="event-image img-fluid mx-auto" src="images/dog-3883112_1920.jpg" alt="Cat kissing dog" title="Cat kissing dog">
+			  </div>
+			</div>
+			<hr class="featurette-divider">
+		</div>
+			
+		<div class="container">
+			<div class="row event order-change">
+			  <div class="col-md-5 event-img">
+				<img class="event-image img-fluid mx-auto" src="images/dog-wash-4125187_1920.jpg" alt="Dog getting bath" title="Dog getting bath">
+			  </div>
+				
+			<div class="col-md-7 right-p format-event-right">
+				<h2 class="event-heading">Volunteer Training.</h2>
+				<h3 class="text">Monday, March 14</h3>
+				<p class="lead">Join us for our volunteer training from 6:30 p.m. to 8:00 p.m. Volunteers make all the difference in the world to the animals at the center. Volunteers provide the animals with responsive and positive human contact, exercise and relief from their kennels and cages. The time volunteers spend is extraordinarily valuable to the animals and to the staff. </p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+  				<path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+  				<path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				</svg> <a href="https://goo.gl/maps/B49EFibjhQAnng9e7" target="_blank"> Pets To Go Animal Shelter, 13183 S Veterans Pkwy, Springfield, Illinois 62704</a></p>
+			  </div>
+			</div>
+			<hr class="featurette-divider">
+		</div>
+			
+		<div class="container">
+			<div class="row event">
+			  <div class="col-md-7 left-p format-event-left">
+				<h2 class="event-heading">Obedience 101 Class.</h2>
+				<h3 class="text">Tuesday, March 15</h3>
+				<p class="lead">Obedience 101 class from 6:30 p.m. to 7:30 p.m. You must be enrolled to attend. Training helps to make dogs more adoptable and ease the transition into a new home. Mental stimulation also helps to keep dogs mentally healthy and lowers the stress of living in the shelter environment. </p>
+				 <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+  				<path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+  				<path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+					 </svg> <a href="https://goo.gl/maps/VLRkfgMXtNoL4gLJA" target="_blank">Washington Park, 1501 S Grand Ave W, Springfield, IL 62704</a></p>
+			  </div>
+				
+			  <div class="col-md-5 event-img">
+				<img class="event-image img-fluid mx-auto" src="images/obedience-training.jpg" alt="dog training" title="Adog training">
+			  </div>
+			</div>
+			<hr class="featurette-divider">
+		</div>
+			
+
+		</main>
+
+		<!-- Footer -->
+		<footer class="text-center text-lg-start bg-light text-muted">
+  
+		  <!-- Section  -->
+		  <section class="footer">
+			<div class="container text-center text-md-start mt-5">
+			  <div class="row mt-4">
+				  
+				<!-- column 1: Hours -->
+				<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+				  <!-- Content Hours -->
+				  <h6 class="text-uppercase fw-bold mb-4">Hours</h6>
+					<p>Sun: 12:00 pm - 5:00 pm</p>
+					<p>Mon – Thur: 10:00 am - 7:00 pm</p>
+					<p>Fri: 10:00 am - 4:00 pm</p>
+					<p>Sat: 9:00 am - 5:00 pm</p>
+				</div><!-- close col 1-->
+
+				  
+				  <!-- column 2: Contact -->
+				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 p-format">
+				  <!-- Links -->
+				  <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+				  <p>Pets To Go Animal Shelter</p>
+				  <p>
+					  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi 		bi-house-heart-fill" viewBox="0 0 16 16">
+				  		<path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707L7.293 1.5Z"/>
+				  		<path d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9.293Zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018Z"/>
+					  </svg>
+				
+					  3183 S Veterans Pkwy, Springfield, Illinois 62704</p>
+				  <p>
+					  
+					 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+					  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+					</svg>
+					  
+					  PetsToGo@gmail.com</p>
+				  <p>
+					  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+					  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+					</svg>
+					  
+				      (217) 698-3091</p>
+				</div> <!-- close col 2-->
+				  
+				 <!-- column 3: Links -->
+				  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 p-format footer-link">
+					  <!-- Content Links -->
+					  <h6 class="text-uppercase fw-bold mb-4">Helpful Links</h6>
+					  <p><a href="contact_us.html">Contact Us</a></p>
+					  <p><a href="about.html">Donate</a></p>
+					  <p><a href="our_pets.html">Volunteer</a></p>
+					  <p><a href="gallery.html">Adopt</a></p>
+					  <p><a href="#top">Back to Top</a></p>
+				  </div> <!-- close col 3-->
+				  
+				  <!-- column 4: Picture -->
+				  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+				  	<img src="images/footer.jpg" alt="Cat with Dog" title="dog and cat">
+				  </div> <!-- close col 4-->
+				  
+			  </div> <!-- close row-->
+			</div> <!-- close container-->
+		  </section><!-- close section-->
+		  <!-- Section-->
+
+		  <!-- Copyright -->
+		  <div class="text-center copyright">
+			© 2022 Copyright:
+			<a class="text-reset fw-bold" href="#">Pets To Go Animal Shelter</a>
+		  </div>
+		  <!-- Copyright -->
+		</footer>
+		<!-- Footer -->
+
+		<!--bootstrap jquery script-->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	</body>
+</html>

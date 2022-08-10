@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Style Document */
+
+
+/* Font family */
+	@font-face {
+		font-family: NotoSans;
+		src: url("Noto_Sans/NotoSans-Regular.ttf");
+		}
+
+	* {
+		font-family: NotoSans; 
+		color: #3e4444;
+		}
+
+	h1 {
+		color:#405d27;
+		font-weight: bold;
+			}
+
+	h2 {
+		color: #c1946a;
+	}
+
+/* Make carousel image fully responsive */
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+		 }
+	
+/* Format carousel text and button */
+		.header-display  {
+			color: white;
+		}
+			
+		.carousel-caption .btn {
+			color: white;
+			background-color: #405d27;
+			border-color: #405d27;
+		}
+
+/* Navigation Bar */
+		#navbarNavAltMarkup {
+			justify-content:flex-end;
+			padding-right: 11.5em;
+			}
+			
+		.navbar .navbar-nav .nav-link:hover {
+			color: #3e4444;
+			}
+			
+		.navbar .navbar-nav .nav-link {
+			color: white;
+			}
+			
+		.navbar .navbar-nav .nav-link:active {
+			color: white;
+			}
+			
+		.navbar .navbar-brand {
+			color: white;
+			padding-left: 10.5em;
+			}
+			
+		.navbar .navbar-brand:hover {
+			color: #3e4444;
+			}
+			
+		.navbar {
+			background-color: #82b74b;
+			padding: 1em;
+			}
+		
+		.fa {
+			font-size: 1.5em;
+			color: #4B2A0B;
+			}
+/* main home search, meet, adopt */
+		.main .container {
+				background-color: white;
+				padding-top: 3em;
+				text-align: center;
+				align-items: center;
+			}
+			
+		.main .container .header {
+				justify-content: center;
+				padding-bottom: 3em;
+			}
+			
+		.main .fa-square {
+				padding-bottom: 2em;
+			}
+			
+			
+		.container .link a {
+				text-decoration: none;
+				color: #405d27;
+				font-weight: bold;
+			}
+/* main home events */
+		.main .left-p p {
+				padding-top: 3em;
+				padding-right: 2em;
+
+			}
+			
+		.main .right-p p {
+				padding-top: 3em;
+				padding-left: 2em;
+			}
+			
+		.main .format-event-left {
+				padding-top: 2em;
+				text-align: start;
+			}
+			
+		.main .format-event-right {
+				padding-top: 2em;
+				text-align: end;
+			}
+			
+			
+		.main .format-event-right h2, .format-event-left h2 {
+				color: #405d27;
+				font-weight: bold;
+				
+			}
+			
+		.main .format-event-right h3, .format-event-left h3 {
+				color: #c1946a;
+			}
+			
+		.main .event-img img {
+				border-radius: 20%;
+				border: solid thin #82b74b;
+			}
+/* About Us */
+		.about-main .about-us-text p {
+				padding-top: 2em;
+				text-align: center;
+			}
+			
+		.about-main .about-us-text h2 {
+				padding-top: 2em;
+				color:#82b74b;
+				text-align: center;
+			}
+			
+		.about-main .about-us-img img{
+				max-width: 100%;
+			}
+			
+		.about-main .about-us-img {
+				padding: 0;
+			}
+			
+		.about-main .row {
+				justify-content: center;
+			}
+			
+		.about-main h1 {
+				padding-top: 1em;
+				padding-bottom: 1em;
+				text-align: center;
+			}
+			
+		.about-main .hours p {
+				padding: 0.5em;
+			}
+			
+		.about-main .first, .third{
+				background-color: #E3F8E3;
+			}
+			
+		.about-main .second, .fourth {
+				background-color: #FDF5DA;
+			}
+
+/*Our Pets */
+		.card-body {
+				background-color: white;
+			}
+			
+		.card-footer {
+				background-color: #405d27;
+
+			}
+			
+		.card-title {
+				color: #82b74b;
+			}
+
+		.our-pet-title h1 {
+			text-align: center;
+			margin: 2em;
+			padding-right: 1em;
+	
+		}
+
+		.our-pet-title .row {
+			justify-content: center;
+			}
+			
+		#text-card {
+				color: white;
+			}
+
+		#video-intro  {
+				background-color: #EDF5F3;
+				margin-bottom: 4em;
+				padding: 3em;
+			}
+		
+			
+		.card-deck a {
+				color: white;
+			}
+			
+		#video-intro  h4{
+				color:#405d27;
+			}
+			
+		#video-intro video {
+				margin-top: 2.5em;
+				border: solid thin green;
+			}
+/* Gallery */
+
+		.pet-gallary {
+			border: 1px solid #1F9B57;
+			border-radius: 5%;
+			align-content: center;
+			margin: 1.0em;
+			background-color: #FDF5DA;
+			text-align: center;
+				
+			}
+			
+		.pet-gallary-feature {
+			border: 1px solid #1F9B57;
+			align-content: center;
+			margin: 1.0em;
+			background-color: #E3F8E3;
+				
+			}
+		
+		.pet-gallary-feature p, h6, h5 {
+				padding: 0.5em;
+			}
+			
+		.pet-gallary img {
+			border-radius: 5%;
+			}
+			
+		.figure-caption p {
+				margin: 0;
+			}
+			
+		.featured-pets-header h1 {
+				text-align: center;
+				margin-top: 2em;
+				margin-bottom: 1em;
+			}
+			
+		.avalible-pets-header h1 {
+				text-align: center;
+				margin-top: 2em;
+				margin-bottom: 1em;
+			}
+/* Contact Us */
+			
+		#contact-information, .contact {
+				background-color: #405d27;
+			}
+			
+			
+		#submit {
+				background-color: #405d27;
+				color: white;
+				border: none;
+				height: 50px;
+				width: 100px;
+				border-radius: 8%;
+				font-size: 1.25em;
+		
+			}
+
+/* Footer  */
+		footer img {
+			width: 100%;
+			height: 100%;
+			}
+			
+		.text-center .copyright {
+			background-color: #405d27;
+			color: white;
+			padding: 1em;
+			}
+			
+		.footer {
+			background-color: #82b74b;
+			}
+			
+		.footer h6 {
+			margin-top: 1.5em;
+			font-weight: bold;
+			}
+			
+		.footer .p-format p {
+			margin: 0.5em;
+			}
+
+		.footer .footer-link a {
+			color: white;
+			text-decoration: underline;
+			}
+	.mobileSize	{
+			display:none;
+		}	
+			
+/* Mead  Query */
+@media only screen and (max-width:500px) {
+	.navbar {
+		flex-direction: column;
+		padding:0;
+		align-items: flex-end;
+		text-align: end;
+	}
+	
+	/* chanage header - carousel images with resizing */
+	.desktopSize {
+		display:none;
+			}
+
+	.mobileSize {
+		display:inline;	
+		}
+	
+}
+
+
+		
